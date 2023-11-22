@@ -1,0 +1,95 @@
+
+
+body{
+	background-color: #D3C7B1;
+	font-family: Sans-Serif;
+}
+
+#wrapper{
+	width: 65em;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#header{
+	background-color: #104e9b;
+	margin: 0;
+	padding: 1em;
+	color: #fff;
+}
+
+#main{
+	background-color: #fff;
+	padding: 1em;
+	width: 48em;
+	float: right;
+}
+
+#sidebar{
+	background-color: #D68051;
+	padding: 1em;
+	width: 13em;
+	float: left;
+}
+
+#footer{
+	background-color: #104e9b;
+	margin: 0;
+	padding: 1em;
+	color: #fff;
+	clear: both;
+}
+
+
+#sidebar ul li {
+	display: inline-block;
+	width: 95%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 130%;
+	padding: 5px;
+	margin-bottom: 5px;
+	background: #3B597D;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#1d2c3e), to(#3B597D));
+	background: -webkit-linear-gradient(#1d2c3e, #3B597D);
+	background: -moz-linear-gradient(#1d2c3e, #3B597D);
+	background: -ms-linear-gradient(#1d2c3e, #3B597D);
+	background: -o-linear-gradient(#1d2c3e, #3B597D);
+	background: linear-gradient(#1d2c3e, #3B597D);
+	border: 1px solid #1d2c3e;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+
+#sidebar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+
+#sidebar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*Alignment classes*/
+
+.alignright{
+	float: right;
+	padding: 0 0 1em 1em;
+}
+.alignleft{
+	float: left;
+	padding: 0 1em 1em 0;
+}
+.aligninline{
+	display: block;
+	padding: .5em 0 2em 0;
+}
+.textright{
+	text-align: right;
+}
+.textcenter{
+	text-align: center;
+}
